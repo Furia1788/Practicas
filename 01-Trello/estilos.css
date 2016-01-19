@@ -6,6 +6,19 @@ html {
     line-height: 1.44em;
 }
 
+@media only screen and (min-width:900px){
+    .layout-fill-image img
+    {-moz-box-sizing:border-box;
+        box-sizing:border-box;
+        max-width:100%;
+        padding:2em 3em 2em
+    }
+}
+
+a {
+    color: #5e98ba;
+}
+
 body{
     display: block;
     margin:0
